@@ -4,7 +4,7 @@
 ### 🎯 **Multi-Disease Fetal Brain Anomaly Detection Using Brain Age Prediction: A Patch-based Deep Learning Framework**
 
 ## Download pretrained model with the link below
-    https://drive.google.com/drive/folders/1hEEqLr6BqC0rmsNaeANRAApijkixTt79?usp=sharing
+    https://drive.google.com/file/d/1al1h63eVkVSexq1j77lpTFEY_zyYgfzt/view?usp=sharing
 
 ## Usage
 ### 1. Prepare a xlsx file with two columns: ID and Age
@@ -15,7 +15,6 @@
 
 ## Acknowledgements
 ### We gratefully acknowledge the contributions of the following repos to our work.
-    https://github.com/gift-surg/NiftyMIC
-
-    https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain
+https://github.com/gift-surg/NiftyMIC
+https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain
 
