@@ -15,6 +15,6 @@
 
 ## Acknowledgements
 ### We gratefully acknowledge the contributions of the following repos to our work.
-https://github.com/gift-surg/NiftyMIC
+https://github.com/gift-surg/NiftyMIC\
 https://github.com/ha-ha-ha-han/UKBiobank_deep_pretrain
 
