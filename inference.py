@@ -91,7 +91,7 @@ if __name__ == "__main__":
     print(f"Original train_dataset size: {len(test_dataset4)}")
     test_loader4 = torch.utils.data.DataLoader(test_dataset4,batch_size=1,shuffle=False,drop_last=False,num_workers=6) 
 
-    # Files below represent a table that includes ids and correspend ages, please use your own instead.
+    # Files below represent a table that includes ids and corresponding ages, please use your own instead.
     test(device, file1, model, test_loader1, split = "test", output_dir=output_dir)
     test(device, file2, model, test_loader2, split = "GMH", output_dir=output_dir)
     test(device, file3, model, test_loader3, split = "VM", output_dir=output_dir)
