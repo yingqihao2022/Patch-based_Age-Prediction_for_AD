@@ -8,22 +8,22 @@
 ## Usage
 
 ### 1. Data Preprocessing before training or infernce
-Run 
-```bash
+    Run 
+    ```bash
     python preprocess.py
-```
-with an *nii.gz brain and an output path (modified by yourself).
+    ```
+    with an *nii.gz brain and an output path.
 ### 2. Inference 
-Example command:
-```bash
+    Example command:
+    ```bash
     python inference_one_brain.py /path/to/brain_patches 215 --model best_model.pt
-```
-The path here is the output path of step 1. The gestational age is measured in **DAYS** here.
+    ```
+    The path here is the output path of step 1. The gestational age is measured in **DAYS** here.
 ### 3. Train your own age prediction model.
-Prepare an xlsx file with two columns: ID and Age, then run
-```bash
+    Prepare an xlsx file with two columns: ID and Age, then run
+    ```bash
     python train.py
-```
+    ```
 ## Acknowledgements
 ### We gratefully acknowledge the contributions of the following repos to our work.
 1. https://github.com/gift-surg/NiftyMIC
