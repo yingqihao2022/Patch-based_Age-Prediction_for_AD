@@ -10,15 +10,15 @@
 ### 1. Data Preprocessing before training or infernce
 Run 
 ```bash
-python preprocess.py
+    python preprocess.py
 ```
 with an *nii.gz brain and an output path (modified by yourself).
 ### 2. Inference 
-Run
+Example command:
 ```bash
-    python inference_one_brain.py /path/to/brain_patches 25 --model best_model.pt
+    python inference_one_brain.py /path/to/brain_patches 215 --model best_model.pt
 ```
-The path here is the output path of step 1.
+The path here is the output path of step 1. The gestational age is measured in **DAYS** here.
 ### 3. Train your own age prediction model.
 Prepare an xlsx file with two columns: ID and Age, then run
 ```bash
