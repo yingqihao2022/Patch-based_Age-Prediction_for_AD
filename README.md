@@ -7,11 +7,13 @@
     https://drive.google.com/file/d/1al1h63eVkVSexq1j77lpTFEY_zyYgfzt/view?usp=sharing
 
 ## Usage
-### 1. Prepare a xlsx file with two columns: ID and Age
-### 2. Data Preprocessing 
+
+### 1. Data Preprocessing before training or infernce
     Run preprocess.py with a folder containing *.nii.gz files
-### 3. Training or Inference
-    Run train.py or inference.py
+### 2. Inference 
+    Run python inference_simple.py brain.nii.gz 25 --model best_model.pt
+### 3. Train your own age prediction model.
+    Prepare an xlsx file with two columns: ID and Age, then run train.py
 
 ## Acknowledgements
 ### We gratefully acknowledge the contributions of the following repos to our work.
